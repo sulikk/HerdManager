@@ -44,7 +44,7 @@ class HerdManagementApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
         useMaterial3: false,
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         ),
       ),
